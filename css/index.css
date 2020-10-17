@@ -1,4 +1,5 @@
-                    
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed&display=swap');
+
 .letter {
    
   font-size:20px;
@@ -7,7 +8,8 @@
     
   }
 
-  .D-h1{
-
+  .d-h1{
+    
+    font-family: 'Sansita Swashed', cursive;
 
   }
