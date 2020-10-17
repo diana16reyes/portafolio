@@ -12,6 +12,54 @@
     font-family: 'Sansita Swashed', cursive;
   }
 
-  .d-icons {
-    display: block;
+  .d-icons li {
+    display:inline;
   }
+
+  .d-icons a {
+    text-decoration: none;
+  }
+
+  .d-icons .fa {
+    margin-top: 10px;
+  }
+
+  @media only screen and (max-width: 960px) {
+    .d-icons li {
+      display: inline-block;
+      margin-right: 10px;
+    }
+  }
+
+
+  .fa-instagram {
+    color: #ffb5bd;
+  }
+
+  .fa-instagram:hover {
+    background: #12c2e9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+   -webkit-text-fill-color:transparent;
+  }
+
+  .fa-youtube-play {
+    color: #ffb5bd;
+  }
+
+  .fa-youtube-play:hover {
+    background: #e52d27;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #b31217, #e52d27);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #b31217, #e52d27); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color:transparent;
+  }
+
+  
+
+  
