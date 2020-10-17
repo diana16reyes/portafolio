@@ -7523,6 +7523,7 @@ td.uk-text-break {
   }
 }
 /* Large screen and bigger */
+
 @media (min-width: 1600px) {
   .uk-column-1-2\@xl {
     column-count: 2;
