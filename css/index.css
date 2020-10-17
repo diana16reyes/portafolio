@@ -11,3 +11,7 @@
   .d-h1,.d-h2{ 
     font-family: 'Sansita Swashed', cursive;
   }
+
+  .d-icons {
+    display: block;
+  }
