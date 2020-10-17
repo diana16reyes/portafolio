@@ -2005,17 +2005,14 @@ select.uk-form-width-xsmall {
 .uk-button-default {
   background-color: transparent;
   color: #333;
-  border:2px solid;
-  border-radius: 200px 200px 200px 200px;
-  border-image-source: linear-gradient(to right, #4568dc, #b06ab3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
-  border-image-slice: 1;
+  border:2px solid #f64f59;
 }
 /* Hover + Focus */
 .uk-button-default:hover,
 .uk-button-default:focus {
   background-color: transparent;
   color: #333;
-  border-color: #b2b2b2;
+  border-color: #b91d73;
 }
 /* OnClick + Active */
 .uk-button-default:active,
