@@ -21,13 +21,13 @@
   }
 
   .d-icons .fa {
-    margin-top: 10px;
+    margin-top: 15px;
   }
 
   @media only screen and (max-width:960px) {
     .d-icons li {
       display: inline-block;
-      margin-right: 10px;
+      margin-right: 15px;
     }
   }
   
@@ -36,7 +36,7 @@
   .fa-github, 
   .fa-linkedin-square, 
   .fa-envelope-o{
-    color: #ffb5bd;
+    color: #ff9fa8;
   }
 
   .fa-instagram:hover{
@@ -70,9 +70,9 @@
   }
 
   .fa-linkedin-square:hover{
-   background: #1488CC;  /* fallback for old browsers */
-   background: -webkit-linear-gradient(to right, #2B32B2, #1488CC);  /* Chrome 10-25, Safari 5.1-6 */
-   background: linear-gradient(to right, #2B32B2, #1488CC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #1488CC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2B32B2, #1488CC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2B32B2, #1488CC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
    -webkit-background-clip: text;
     -moz-background-clip: text;
     background-clip: text;
@@ -88,6 +88,7 @@
     background-clip: text;
     -webkit-text-fill-color:transparent;
   }
+
 
 
 
