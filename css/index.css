@@ -89,6 +89,12 @@
     -webkit-text-fill-color:transparent;
   }
 
+  .d-button{
+    color: black;
+    background-color: hotpink;
+    border:2px solid #f64f59;
+  }
+
 
 
 
