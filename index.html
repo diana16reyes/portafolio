@@ -2,12 +2,14 @@
 <html>
     <head>
         <title>Diana Cano</title>
+        <link rel="shortcut icon" href="assets/img/icon.png" type="image/x-icon">
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/uikit.css" />
         <link rel="stylesheet" href="css/index.css">
         <link rel="stylesheet" href="assets/font-awesome-4.7.0/css/font-awesome.min.css">
         <script src="js/uikit.min.js"></script>
+        <script src="js/uikit-icons.min.js"></script>
         
     </head>
 
@@ -17,81 +19,115 @@
         <nav class="uk-navbar-container" uk-navbar>
 
             <div class="uk-navbar-left">
-               
-                <ul class="uk-navbar-nav">
-                    <li class="uk-active"><a href="#">Logo</a></li>
-                </ul>
+                <a uk-navbar-toggle-icon="" href="#offcanvas" uk-toggle="" class="uk-navbar-toggle uk-hidden@m uk-icon uk-navbar-toggle-icon">
+                    <svg width="50" height="50" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" data-svg="navbar-toggle-icon"><rect y="9" width="20" height="2"></rect><rect y="3" width="20" height="2"></rect><rect y="15" width="20" height="2"></rect>
+                    </svg>
+                </a>
+            </div>
 
-               
+            <div class="uk-navbar-left uk-visible@m">
+                <ul class="uk-navbar-nav">
+                    <li class="uk-active">
+                        <a href="#">
+                            <img src="assets/img/logo.gif" alt="" width="100" height="100">
+                        </a>
+                    </li>
+                </ul> 
             </div>
        
-            <div class="uk-navbar-right">
-        
+            <div class="uk-navbar-center uk-visible@m">
                 <ul class="uk-navbar-nav">
                     <li class="uk-active"><a href="#">Home</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="mailto:lizbeth21reyescano@gmail.com">Contact</a></li>
                 </ul>
 
-                <a class="uk-button uk-button-default uk-margin-medium-right uk-border-pill" href="#">Link</a>
-        
+                <a class="uk-button uk-button-default uk-margin-medium-right uk-border-pill" href="#Projects">Projects</a>
             </div>
         
         </nav>
+
+        <div id="offcanvas" uk-offcanvas="overlay: true">
+            <div class="uk-offcanvas-bar">
+                <i class="fa fa-times-circle fa-3x uk-offcanvas-close"></i>
+        
+                <section class="uk-text-center">
+                    <a href="#">
+                        <img src="assets/img/logo.gif" alt="" width="200" height="200">
+                    </a>  
+                </section>
+
+                <ul class="uk-list uk-text-center">
+                    <li class="uk-active">
+                        <a class="d-link" href="#">Home</a>
+                    </li>
+                    <li>
+                        <a class="d-link" href="mailto:lizbeth21reyescano@gmail.com">Contact</a>
+                    </li>
+                    <li>
+                        <a class="d-link" href="#Projects">Projects</a>
+                    </li>
+                </ul>
+                    
+            </div>
+        </div>
+        
 
 
         <div class="uk-text-center uk-margin-medium-top" uk-grid>
            
             <div class="uk-width-1-3@m">
-                <div class="uk-card  uk-card-body">
-                    <img src="assets/img/2.png" width="300" height="1000" alt="Diana Cano">
+                <div class="uk-card  uk-card-body uk-animation-toggle">
+                    <img class="uk-animation-slide-left" src="assets/img/2.png" width="300" height="1000" alt="">
                 </div>
             </div>
             
             <div class="uk-width-expand">
-                <div class="uk-card uk-card-body uk-margin-medium-top">
+                <div class="uk-card uk-card-body uk-margin-small-top">
 
                     <h1 class="d-h1">I'm Diana Cano</h1>
                     <h2 class="d-h2 uk-margin-remove-top">Web developer</h2>
                     <p class="letter">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+                        📌 First of all, thanks for visiting my personal website.
+                        👩‍💻 I’m a Mexican ICT Engineer, Frontend & Backend Developer, passionate about technology.
+                        🤝 I enjoy sharing my knowledge and helping others when possible.
                     </p>
 
-                    <a class="uk-button d-button uk-border-pill" href="#"> <i class="fa fa-address-book" aria-hidden="true"></i> Contact-me  </a>
+                    <a class="uk-button d-button uk-border-pill uk-link-text" href="mailto:lizbeth21reyescano@gmail.com"> <i class="fa fa-address-book" aria-hidden="true"></i> Contact-me  </a>
 
                 </div>
             </div>
 
             <div class="uk-width-1-6@m">
-                <div class="uk-card uk-card-body uk-margin-medium-top">
+                <div class="uk-card uk-card-body uk-margin-medium-top d-card">
 
                     <div class="d-icons">
                         <ul class="uk-list"> 
                             <li>
-                                <a href="#">
+                                <a href="https://www.instagram.com/diana.golang/" target="_blank" rel="noopener noreferrer">
                                     <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
                                 </a>
                             </li>
                             
                             <li>
-                                <a href="#">
+                                <a href="https://www.youtube.com/channel/UC0JCMlGbpjCU8X2La5JPcJg" target="_blank" rel="noopener noreferrer">
                                     <i class="fa fa-youtube-play fa-2x" aria-hidden="true"></i>
                                 </a>
                             </li>
 
                             <li>
-                                <a href="#">
+                                <a href="https://github.com/diana16reyes" target="_blank" rel="noopener noreferrer">
                                     <i class="fa fa-github fa-2x" aria-hidden="true"></i>
                                 </a>
                             </li>
 
                             <li>
-                                <a href="#">
+                                <a href="https://www.linkedin.com/in/diana-cano-8aa2221a6" target="_blank" rel="noopener noreferrer">
                                 <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
                                 </a>
                             </li>
 
                             <li>
-                                <a href="#">
+                                <a href="mailto:lizbeth21reyescano@gmail.com">
                                 <i class="fa fa-envelope-o fa-2x" aria-hidden="true"></i>
                                 </a>
                             </li>
@@ -102,6 +138,170 @@
             </div>
             
         </div>
+
+        <div class="uk-child-width-1-3@m" uk-grid uk-scrollspy="cls: uk-animation-slide-bottom; target: .uk-card; delay: 300; repeat: true" id="Projects">
+
+            <div>
+                <div>
+                    <div class="uk-card uk-card-body">
+                        <div class="uk-card-media-top">
+                            <img src="assets/img/sakura.png" alt="">
+                        </div>
+                        <div class="uk-card-footer d-card-foo">
+                            <h3 class="uk-card-title">Sakura Cosmetics</h3>
+                            <p>
+                                <img class="svg" src="assets/img/html.svg" alt="Html" width="25">
+                                <img class="svg" src="assets/img/Css.svg" alt="Css" width="25">
+                                <img class="svg" src="assets/img/js.svg" alt="JavaScript" width="25">
+                                <img class="svg" src="assets/img/uikit.svg" alt="Uikit" width="25">
+                            </p>
+                            <div class="celda">
+                                Code <a href="https://github.com/diana16reyes/Sakura-Cosmetics" target="_blank" rel="noopener noreferrer" class="uk-icon-button uk-margin-small-right d-link-remote" uk-icon="github"></a>
+                            </div>
+                            <div class="celda uk-align-right">
+                                Preview <a href="https://diana16reyes.github.io/Sakura-Cosmetics/" target="_blank" rel="noopener noreferrer"  class="uk-icon-button uk-margin-small-right d-link-remote" uk-icon="forward"></a>
+                            </div>  
+                        </div>
+                    </div>
+                </div> 
+            </div>
+
+            <div>
+                <div>
+                    <div class="uk-card uk-card-body">
+                        <div class="uk-card-media-top">
+                            <img src="assets/img/react-app.png" alt="">
+                        </div>
+                        <div class="uk-card-footer d-card-foo">
+                            <h3 class="uk-card-title">React Api</h3>
+                            <p>
+                                <img class="svg" src="assets/img/react.png" alt="React.js" width="25">
+                                <img class="svg" src="assets/img/laravel.svg" alt="Laravel" width="25">
+                                <img class="svg" src="assets/img/Mysql.svg" alt="MySQL" width="25">
+                                <img class="svg" src="assets/img/html.svg" alt="Html" width="25">
+                                <img class="svg" src="assets/img/Css.svg" alt="Css" width="25">
+                                <img class="svg" src="assets/img/uikit.svg" alt="Uikit" width="25">
+                            </p>
+                            <div class="celda">
+                                Code <a href="https://github.com/diana16reyes/Api" target="_blank" rel="noopener noreferrer" class="uk-icon-button uk-margin-small-right d-link-remote" uk-icon="github"></a>
+                            </div>
+                            <div class="celda uk-align-right">
+                                Preview <a href="" target="_blank" rel="noopener noreferrer" class="uk-icon-button uk-margin-small-right d-link-remote" uk-icon="forward"></a>
+                            </div>  
+                        </div>
+                    </div>
+                </div> 
+            </div>
+
+            <div>
+                <div>
+                    <div class="uk-card uk-card-body">
+                        <div class="uk-card-media-top">
+                            <img src="assets/img/seguros.jpg" alt="">
+                        </div>
+                        <div class="uk-card-footer d-card-foo">
+                            <h3 class="uk-card-title">Toluca Insurance</h3>
+                            <p>
+                                <img class="svg" src="assets/img/laravel.svg" alt="Laravel" width="25">
+                                <img class="svg" src="assets/img/Mysql.svg" alt="MySQL" width="25">
+                                <img class="svg" src="assets/img/html.svg" alt="Html" width="25">
+                                <img class="svg" src="assets/img/Css.svg" alt="Css" width="25">
+                                <img class="svg" src="assets/img/jquery.svg" alt="jQuery" width="25">
+                                <img class="svg" src="assets/img/bootstrap.svg" alt="Bootstrap" width="25">
+                            </p>
+                            <div class="celda">
+                                Code <a href="https://github.com/diana16reyes" target="_blank" rel="noopener noreferrer" class="uk-icon-button uk-margin-small-right d-link-remote" uk-icon="github"></a>
+                            </div>
+                            <div class="celda uk-align-right">
+                                Preview <a href="http://www.segurostoluca.com/" class="uk-icon-button uk-margin-small-right d-link-remote" uk-icon="forward"></a>
+                            </div>  
+                        </div>
+                    </div>
+                </div> 
+            </div>
+
+            <div class=" uk-margin-remove-top">
+                <div>
+                    <div class="uk-card uk-card-body">
+                        <div class="uk-card-media-top">
+                            <img src="assets/img/greco.png" alt="">
+                        </div>
+                        <div class="uk-card-footer d-card-foo">
+                            <h3 class="uk-card-title">Greco trading company</h3>
+                            <p>
+                                <img class="svg" src="assets/img/laravel.svg" alt="Laravel" width="25">
+                                <img class="svg" src="assets/img/Mysql.svg" alt="MySQL" width="25">
+                                <img class="svg" src="assets/img/html.svg" alt="Html" width="25">
+                                <img class="svg" src="assets/img/Css.svg" alt="Css" width="25">
+                                <img class="svg" src="assets/img/jquery.svg" alt="jQuery" width="25">
+                                <img class="svg" src="assets/img/bootstrap.svg" alt="Bootstrap" width="25">
+                            </p>
+                            <div class="celda">
+                                Code <a href="https://github.com/grecocomer" target="_blank" rel="noopener noreferrer" class="uk-icon-button uk-margin-small-right d-link-remote" uk-icon="github"></a>
+                            </div>
+                            <div class="celda uk-align-right">
+                                Preview <a href="https://brayanmanzano.site/comercializadora/" target="_blank" rel="noopener noreferrer" class="uk-icon-button uk-margin-small-right d-link-remote" uk-icon="forward"></a>
+                            </div>  
+                        </div>
+                    </div>
+                </div> 
+            </div>
+
+            <div class=" uk-margin-remove-top">
+                <div>
+                    <div class="uk-card uk-card-body">
+                        <div class="uk-card-media-top">
+                            <img src="assets/img/vit1.webp" alt="">
+                        </div>
+                        <div class="uk-card-footer d-card-foo">
+                            <h3 class="uk-card-title">Vitalicia Assistance</h3>
+                            <p>
+                                <img class="svg" src="assets/img/laravel.svg" alt="Laravel" width="25">
+                                <img class="svg" src="assets/img/Mysql.svg" alt="MySQL" width="25">
+                                <img class="svg" src="assets/img/html.svg" alt="Html" width="25">
+                                <img class="svg" src="assets/img/Css.svg" alt="Css" width="25">
+                                <img class="svg" src="assets/img/jquery.svg" alt="jQuery" width="25">
+                                <img class="svg" src="assets/img/foundation.svg" alt="Foundation" width="20">
+                            </p>
+                            <div class="celda">
+                                Code <a href="https://github.com/vitalicia2/proyecto2" target="_blank" rel="noopener noreferrer" class="uk-icon-button uk-margin-small-right d-link-remote" uk-icon="github"></a>
+                            </div>
+                            <div class="celda uk-align-right">
+                                Preview <a href="https://brayanmanzano.site/" target="_blank" rel="noopener noreferrer" class="uk-icon-button uk-margin-small-right d-link-remote" uk-icon="forward"></a>
+                            </div>                              
+                        </div>
+                    </div>
+                </div> 
+            </div>
+
+            <div class=" uk-margin-remove-top">
+                <div>
+                    <div class="uk-card uk-card-body">
+                        <div class="uk-card-media-top">
+                            <img src="assets/img/youtube.png" alt="">
+                        </div>
+                        <div class="uk-card-footer d-card-foo">
+                            <h3 class="uk-card-title">YouTube channel</h3>
+                            <p>
+                                My personal channel where I do some programming tutorials.
+                            </p>
+                            <div class="celda">
+                                Preview <a href="https://www.youtube.com/channel/UC0JCMlGbpjCU8X2La5JPcJg" target="_blank" rel="noopener noreferrer" class="uk-icon-button uk-margin-small-right d-link-remote" uk-icon="forward"></a>
+                            </div>     
+                        </div>
+                    </div>
+                </div> 
+            </div>
+
+        </div>
+
+        <footer class="uk-text-center uk-margin-bottom">
+            <span>Made with</span> <i class="fa fa-heart" aria-hidden="true"></i>
+            <br>
+            <small>© 2021 Diana Cano.</small>
+        </footer>
+
+        
 
     </body>
 </htm

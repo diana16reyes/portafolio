@@ -356,7 +356,7 @@ hr,
   /* 3 */
   margin: 0 0 20px 0;
   border: 0;
-  border-top: 1px solid #e5e5e5;
+  border-top: 1px solid #9B6A6A;
 }
 /* Add margin if adjacent element */
 * + hr,
@@ -4091,9 +4091,9 @@ select.uk-form-width-xsmall {
   left: -270px;
   /* 2 */
   box-sizing: border-box;
-  width: 270px;
+  width: 100%;
   padding: 20px 20px;
-  background: #222;
+  background: #E3D1D5;
   /* 3 */
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
@@ -5279,12 +5279,12 @@ ul.uk-nav-sub {
 /* Toggle
  ========================================================================== */
 .uk-navbar-toggle {
-  color: #999;
+  color: #f8f8f8;
 }
 .uk-navbar-toggle:hover,
 .uk-navbar-toggle:focus,
 .uk-navbar-toggle.uk-open {
-  color: #666;
+  color: #eddbde;
   outline: none;
   text-decoration: none;
 }
