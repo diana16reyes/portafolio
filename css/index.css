@@ -1,15 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
+
 
 .letter {
    
   font-size:20px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   color: #222;
     
   }
 
   .d-h1,.d-h2 { 
-    font-family: 'Sansita Swashed', cursive;
+    font-family: 'Cinzel Decorative', cursive;
   }
 
   .d-icons li {
@@ -96,9 +97,12 @@
   .d-button{
     color: #333;
     border: 1px transparent;
-    background: #ddd6f3;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #faaca8, #f1e2f5);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #faaca8, #f1e2f5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #FFEFBA;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    
+    
   }
 
   .d-link {
@@ -150,10 +154,18 @@
   }
 
   .fa-heart {
-    color: crimson;
+    color: crimson ;
   }
 
-  
-  
+  /* .site-header{
+    position: fixed; z-index: 1; top: 0; left: 25;
+  }
 
-  
+  #PageContainer{ 
+    top: 80px;
+  }
+
+  @media only screen and (max-width: 767px) {
+         #PageContainer{    top: 73px ;}
+  }
+   */
